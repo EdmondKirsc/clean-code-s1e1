@@ -43,10 +43,16 @@ ul {
 .task-category {
   list-style: none;
 }
-.input-task, .input-checkbox, .add-task__button, .incompleted__button, .completed__button{
+.input-task,
+.input-checkbox,
+.add-task__button,
+.incompleted__button,
+.completed__button {
   outline: none;
 }
-.add-task__button, .incompleted__button, .completed__button {
+.add-task__button,
+.incompleted__button,
+.completed__button {
   background: none;
   border: 0px;
   color: #888;
@@ -55,7 +61,9 @@ ul {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.add-task__button:hover, .incompleted__button:hover, .completed__button:hover {
+.add-task__button:hover,
+.incompleted__button:hover,
+.completed__button:hover {
   color: #3a3a3a;
 }
 /* Heading */
